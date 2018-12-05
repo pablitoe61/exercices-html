@@ -1,0 +1,81 @@
+body{
+    margin:0px;
+    color:white;
+    font-family:sans-serif;
+}
+header{
+   background-color:black;
+   width:100%;
+   height:10vh;
+}
+#logo{
+    height:7vh;
+    margin-top:1vh;
+    margin-left:2%;
+}
+main{
+    background-image:url(https://www.viajejet.com/wp-content/viajes/Lago-Moraine-Parque-Nacional-Banff-Alberta-Canada-1440x810.jpg);
+    background-color:green;
+    opacity:05;
+    height:90vh;
+    width:100%;
+}
+main h1{
+    color:white;
+}
+main .contenedor{
+    text-align:center;
+    padding:250px 0px;
+}
+main .contenedor a{
+    padding:10px 35px;
+    text-transform:uppercase;
+    background-color:red;
+    margin-top:500px;
+    font-weight:bold;
+}
+header nav{
+    width:50%;
+    height:10vh;
+    float:right;
+    background-color:red;
+}
+header nav ul{
+    list-style:none;
+    margin-top:4vh;
+}
+header nav ul li{
+    display:inline;
+    margin-left:15%;
+}
+header nav ul li a{
+    color:white;
+}
+section{
+    background-color:blue;
+    height:70vh;
+    width:100%;
+    padding-left:9%;
+    padding-top:5%;
+}
+.card{
+    max-width:350px;
+    display:inline-block;
+    text-align:center;
+    background-color:gray;
+    padding:10px;
+}
+.card i{
+    font-size:75px;
+    text-align:center;
+
+}
+.container{
+    padding:2px 16px;
+    text-align:left;
+}
+footer{
+    background-color:gray;
+    height:10vh;
+    width:100%;
+}
